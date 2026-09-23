@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Perfil - Sucos Naturais</title>
+    <style>
+        
+        .navbar {
+    background-color: orange;
+    overflow: hidden;
+    text-align: center;
+}
+
+.dropdown {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 20px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    cursor: pointer;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: darkorange; /
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.texto-descricao {
+    width: 500px;
+}
+
+
+.linha-divisoria {
+    width: 50%;
+}
+
+        .foto-perfil {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            background-color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="dropdown">
+            <button class="dropbtn">Menu &#9660;</button>
+            <div class="dropdown-content">
+                <a href="index.html">Produtos</a>
+                <a href="dashboard.html">Dashboard</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">Ajuda &#9660;</button>
+            <div class="dropdown-content">
+                <a href="contatos.html">Contatos</a>
+                <a href="sobre.html">Sobre</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">Seu &#9660;</button>
+            <div class="dropdown-content">
+                <a href="carinho.html">Carrinho</a>
+                <a href="perfil.html">Perfil</a>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <center>
+        <h1>PERFIL DO USUÁRIO</h1>
+
+        <br>
+
+   
+        <img class="foto-perfil" src="img/perfil.jpg" alt="Foto de Perfil">
+
+        <br><br>
+
+    
+        <p><strong>Nome:</strong> Cliente Exemplo</p>
+        <p><strong>E-mail:</strong> cliente@email.com</p>
+        <p><strong>Telefone:</strong> (81) 99999-8888</p>
+        <p><strong>Cidade:</strong> Recife - PE</p>
+
+        <br>
+
+    </center>
+
+    <br><br><br>
+
+    <footer>
+        <center>
+            <hr>
+            <p>Desenvolvido por Mim &copy; 2026 - Todos os direitos reservados.</p>
+            <p>Contato: suporte@meusite.com</p>
+            <p>Localização: Rua Tabelião, 123 - Recife, PE</p>
+            <p>Número: (12) 3456-7890</p>
+        </center>
+    </footer>
+
+</body>
+</html>
